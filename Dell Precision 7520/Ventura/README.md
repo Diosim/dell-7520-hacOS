@@ -53,27 +53,27 @@ OpenCore | 0.8.8
 
 - Parallel Port: **Disabled**
 	- System Configuration > Parallel Port
-		Default: AT
+		- Default: AT
 - Serial Port: Enabled
 	- System Configuration > Serial Port
-		Default: **COM1**
+		- Default: **COM1**
 - Virtualization Support: Enabled
-    * Virtualisation Support > Virtualization
-        * Default:  Enabled
+	- Virtualisation Support > Virtualization
+		- Default:  Enabled
 - SATA Operation: AHCI
-    * Virtualisation Support > Virtualization
-        * Default:  Enabled
+	- System Configuration > SATA Operation
+		- Default: AHCI
 - Thunderbolt: Disabled
-    * System Configuration > Thunderbolt(TM) Adapter Configuration
-		Default: Enabled (Enable Thunderbolt(TM) Technology Support)
+	- System Configuration > Thunderbolt(TM) Adapter Configuration
+		- Default: Enabled (Enable Thunderbolt(TM) Technology Support)
 - Secure Boot: Disabled
-    * Secure Boot > Secure Boot Enable
-        * Default: Disabled
+	- Secure Boot > Secure Boot Enable
+		- Default: Disabled
 - Legacy Option ROM: Disabled
-    * General > Advanced Boot Options
-        * Default: Enabled
+	- General > Advanced Boot Options
+		- Default: Enabled
 - Wake on LAN/WLAN: Disabled
-    * Default: Disabled
+		- Default: Disabled
 
 ## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
 You'll also need to set some settings that are hidden from the menu.
