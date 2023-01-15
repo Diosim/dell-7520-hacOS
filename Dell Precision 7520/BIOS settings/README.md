@@ -28,36 +28,28 @@
 You'll also need to set some settings that are hidden from the menu. Boot the OpenCore EFI, press Space and select modGRUBShell.efi
 
 From there enter these commands:
-Disable CFG-Lock:
-
+Disable CFG-Lock (Default:	0x01):
 ```
 setup_var 0x4ED 0x00
 ```
-Default:	0x01
 
-Enable Above 4G Decoding:
-
+Enable Above 4G Decoding (Default:	0x00):
 ```
 setup_var 0x79A 0x1
 ```
 
-Default:	0x00
-
-set DVMT Pre-Allocation to 64MB:
-
+set DVMT Pre-Allocation to 64MB (Default:	0x02):
 ```
 setup_var 0x795 0x2
 ```
 
-Default:	0x02
 
-set DVMT Total GFX Size to MAX:
-
+set DVMT Total GFX Size to MAX (Default:	0x02):
 ```
 setup_var 0x796 0x3
 ```
 
-Default:	0x02
+
 
 # Extracted from BIOS version 1.14.1
 
