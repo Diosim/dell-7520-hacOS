@@ -12,6 +12,7 @@ CPU | Intel Xeon E3-1505MV5 2.80GHz
 iGPU | Intel® HD Graphics P530
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
+Ethernet | Intel I219
 macOS | Ventura 13.0
 OpenCore | 0.8.8
 
@@ -46,7 +47,7 @@ OpenCore | 0.8.8
 
 
 
-## BIOS/UEFI settings
+# BIOS/UEFI settings
 
 - Parallel Port: Disabled
 - Serial Port: Enabled
