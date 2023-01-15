@@ -50,30 +50,30 @@ OpenCore | 0.8.8
 
 
 # BIOS/UEFI settings
-
-- Parallel Port: **Disabled**
-	- System Configuration > Parallel Port
-		- Default: AT
-- Serial Port: **Enabled**
-	- System Configuration > Serial Port
-		- Default: **COM1**
-- Virtualization Support: **Enabled**
-	- Virtualisation Support > Virtualization
-		- Default:  Enabled
-- SATA Operation: **AHCI**
-	- System Configuration > SATA Operation
-		- Default: AHCI
-- Thunderbolt: **Disabled**
-	- System Configuration > Thunderbolt(TM) Adapter Configuration
-		- Default: Enabled (Enable Thunderbolt(TM) Technology Support)
-- Secure Boot: **Disabled**
-	- Secure Boot > Secure Boot Enable
-		- Default: Disabled
-- Legacy Option ROM: **Disabled**
-	- General > Advanced Boot Options
-		- Default: Enabled
-- Wake on LAN/WLAN: **Disabled**
-		- Default: Disabled
+- System Configuration > Parallel Port
+	- Parallel Port: **Disabled**
+	- Default: AT
+- System Configuration > Serial Port
+	- Serial Port: **Enabled**
+	- Default: **COM1**
+- Virtualisation Support > Virtualization
+	- Virtualization Support: **Enabled**
+	- Default:  Enabled
+- System Configuration > SATA Operation
+	- SATA Operation: **AHCI**
+	- Default: AHCI
+- System Configuration > Thunderbolt(TM) Adapter Configuration
+	- Thunderbolt: **Disabled**
+	- Default: Enabled (Enable Thunderbolt(TM) Technology Support)
+- Secure Boot > Secure Boot Enable
+	- Secure Boot: **Disabled**
+	- Default: Disabled
+- General > Advanced Boot Options
+	- Legacy Option ROM: **Disabled**
+	- Default: Enabled
+- Wake on LAN/WLAN
+	- Wake on LAN/WLAN: **Disabled**
+	- Default: Disabled
 
 ## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
 You'll also need to set some settings that are hidden from the menu.
