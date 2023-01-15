@@ -31,7 +31,7 @@ From there enter these commands:
 Disable CFG-Lock:
 ```
 setup_var 0x4ED 0x00
-
+```
 	Default:	0x01
 	
 Enable Above 4G Decoding:
