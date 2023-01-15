@@ -1,2 +1,2 @@
 # hackintosh
-opencore
+OpenCore configuration files and installation information
