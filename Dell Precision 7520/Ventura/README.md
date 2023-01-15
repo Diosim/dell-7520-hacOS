@@ -54,10 +54,10 @@ OpenCore | 0.8.8
 - Parallel Port: **Disabled**
 	- System Configuration > Parallel Port
 		- Default: AT
-- Serial Port: Enabled
+- Serial Port: **Enabled**
 	- System Configuration > Serial Port
 		- Default: **COM1**
-- Virtualization Support: Enabled
+- Virtualization Support: **Enabled**
 	- Virtualisation Support > Virtualization
 		- Default:  Enabled
 - SATA Operation: **AHCI**
