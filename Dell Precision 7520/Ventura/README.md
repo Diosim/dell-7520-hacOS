@@ -60,7 +60,7 @@ OpenCore | 0.8.8
 
 You'll also need to set some settings that are hidden from the menu.
 Boot the OpenCore EFI, press Space and select modGRUBShell.efi
-##MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
+## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
 From there enter these commands:
 setup_var 0x4ED 0x00 (Disable CFG-Lock)
 setup_var 0x79A 0x1 (Enable Above 4G Decoding)
