@@ -36,7 +36,7 @@ setup_var 0x4ED 0x00
 ```
 
 Default:	0x01
-	
+
 Enable Above 4G Decoding:
 
 ```
@@ -44,7 +44,7 @@ setup_var 0x79A 0x1
 ```
 
 Default:	0x00
-	
+
 set DVMT Pre-Allocation to 64MB:
 
 ```
@@ -52,15 +52,15 @@ setup_var 0x795 0x2
 
 ```
 
-	Default:	0x02
-	
+Default:	0x02
+
 set DVMT Total GFX Size to MAX:
 
 ```
 setup_var 0x796 0x3
 ```
 
-	Default:	0x02
+Default:	0x02
 
 # Extracted from BIOS version 1.14.1
 
