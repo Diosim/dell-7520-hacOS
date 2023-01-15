@@ -41,6 +41,8 @@ setup_var 0x795 0x2 (set DVMT Pre-Allocation to 64MB)
 setup_var 0x796 0x3 (set DVMT Total GFX Size to MAX)
 	Default:	0x02
 
+# From BIOS version 1.14.1
+
 Location | CFG Lock
 ------------- | ---------------
 0x399A3 |			One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x4ED, VarStore: 0x1, QuestionId: 0x2BB, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 EF 02 F0 02 BB 02 01 00 ED 04 10 10 00 01 00}
