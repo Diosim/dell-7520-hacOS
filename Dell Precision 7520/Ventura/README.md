@@ -8,7 +8,7 @@ Testing on:
 
 Model | Dell Precision 7520
 ------------- | ---------------
-CPU | Intel® Xeon E3-1505MV5 2.80GHz
+CPU | Intel® Xeon E3-1505MV5 2.80GHz (4/8 Skylake)
 iGPU | Intel® HD Graphics P530
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
