@@ -45,19 +45,19 @@ From there enter these commands:
 
 Location | CFG Lock
 ------------- | ---------------
-0x399A3 |			One Of: **CFG Lock**, VarStoreInfo (VarOffset/VarName): 0x4ED, VarStore: 0x1, QuestionId: 0x2BB, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 EF 02 F0 02 BB 02 01 00 ED 04 10 10 00 01 00}
+0x399A3 |			One Of: **CFG Lock**, VarStoreInfo (VarOffset/VarName): **0x4ED**, VarStore: 0x1, QuestionId: 0x2BB, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 EF 02 F0 02 BB 02 01 00 ED 04 10 10 00 01 00}
 0x399B4 |			One Of Option: **Disabled**, Value (8 bit): **0x0** {09 07 04 00 00 00 00}
 0x399BB |			One Of Option: Enabled, Value (8 bit): **0x1 (default)** {09 07 03 00 30 00 01}
 
 Location | 4GB MMIO BIOS assignment
 ------------- | ---------------
-0x40E49 |			One Of: Above 4GB MMIO BIOS assignment, VarStoreInfo (VarOffset/VarName): 0x79A, VarStore: 0x1, QuestionId: 0x51F, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 1C 06 1D 06 1F 05 01 00 9A 07 10 10 00 01 00}
+0x40E49 |			One Of: Above 4GB MMIO BIOS assignment, VarStoreInfo (VarOffset/VarName): **0x79A**, VarStore: 0x1, QuestionId: 0x51F, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 1C 06 1D 06 1F 05 01 00 9A 07 10 10 00 01 00}
 0x40E5A |			One Of Option: **Enabled**, Value (8 bit): **0x1** {09 07 8F 00 00 00 01}
 0x40E61 |			One Of Option: Disabled, Value (8 bit): **0x0 (default)** {09 07 90 00 30 00 00}
 
 Location | DVMT Pre-Allocated
 ------------- | ---------------
-0x411C6 |				One Of: **DVMT Pre-Allocated**, VarStoreInfo (VarOffset/VarName): 0x795, VarStore: 0x1, QuestionId: 0x52F, Size: 1, Min: 0x0, Max 0xFE, Step: 0x0 {05 91 0C 05 1F 05 2F 05 01 00 95 07 14 10 00 FE 00}
+0x411C6 |				One Of: **DVMT Pre-Allocated**, VarStoreInfo (VarOffset/VarName): **0x795**, VarStore: 0x1, QuestionId: 0x52F, Size: 1, Min: 0x0, Max 0xFE, Step: 0x0 {05 91 0C 05 1F 05 2F 05 01 00 95 07 14 10 00 FE 00}
 0x411D7 |				One Of Option: 0M, Value (8 bit): 0x0 {09 07 0D 05 00 00 00}
 0x411DE |				One Of Option: 32M, Value (8 bit): 0x1 {09 07 0E 05 00 00 01}
 0x411E5 |				One Of Option: **64M**, Value (8 bit): **0x2** (default) {09 07 0F 05 30 00 02}
@@ -79,7 +79,7 @@ Location | DVMT Pre-Allocated
 
 Location | DVMT Total Gfx Mem
 ------------- | ---------------
-0x41259 |			One Of: **DVMT Total Gfx Mem**, VarStoreInfo (VarOffset/VarName): 0x796, VarStore: 0x1, QuestionId: 0x530, Size: 1, Min: 0x1, Max 0x3, Step: 0x0 {05 91 20 05 21 05 30 05 01 00 96 07 10 10 01 03 00}
+0x41259 |			One Of: **DVMT Total Gfx Mem**, VarStoreInfo (VarOffset/VarName): **0x796**, VarStore: 0x1, QuestionId: 0x530, Size: 1, Min: 0x1, Max 0x3, Step: 0x0 {05 91 20 05 21 05 30 05 01 00 96 07 10 10 01 03 00}
 0x4126A |			One Of Option: 256M, Value (8 bit): 0x2 (default) {09 07 23 05 30 00 02}
 0x41271 |				One Of Option: 128M, Value (8 bit): 0x1 {09 07 22 05 00 00 01}
 0x41278 |				One Of Option: **MAX**, Value (8 bit): **0x3** {09 07 24 05 00 00 03}
