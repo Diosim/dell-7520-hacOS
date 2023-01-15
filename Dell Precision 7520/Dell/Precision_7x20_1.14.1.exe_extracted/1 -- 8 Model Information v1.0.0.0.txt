@@ -1,0 +1,5 @@
+VendorName=Dell Inc.
+OemString=Model_File
+SystemName=Precision E7X20
+Version=1.14.1
+Model=07B0,07B1
