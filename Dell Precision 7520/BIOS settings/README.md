@@ -28,6 +28,7 @@
 You'll also need to set some settings that are hidden from the menu. Boot the OpenCore EFI, press Space and select modGRUBShell.efi
 
 From there enter these commands:
+
 Disable CFG-Lock (Default:	0x01):
 ```
 setup_var 0x4ED 0x00
@@ -42,7 +43,6 @@ set DVMT Pre-Allocation to 64MB (Default:	0x02):
 ```
 setup_var 0x795 0x2
 ```
-
 
 set DVMT Total GFX Size to MAX (Default:	0x02):
 ```
