@@ -8,11 +8,13 @@ Testing on:
 
 Model | Dell Precision 7520
 ------------- | ---------------
-CPU | Intel® Xeon E3-1505MV5 2.80GHz (4/8 Skylake)
-iGPU | Intel® HD Graphics P530
-RAM | 32 GB DDR4
-WiFi | Intel® Dual Band-Wireless-AC 8265
-Ethernet | Intel® I219
+CPU | Intel® Xeon E3-1505M V6 3GHz (4/8 Kaby lake)
+Socket | 1440 FCBGA
+iGPU | Intel® HD Graphics P630
+RAM | 32 GB DDR4 2400MHz
+WiFi | Intel® 8265 Dual-Band 2x2 802.11ac Bluetooth® 4.2
+Ethernet | Intel® I219LM
+Chipset | Intel Mobile CM238
 SSD | Samsung PM871
 macOS | Ventura 13.0
 SmBios|	MacBookPro 13,3
