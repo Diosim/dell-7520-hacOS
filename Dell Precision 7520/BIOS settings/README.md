@@ -32,7 +32,6 @@ Disable CFG-Lock:
 
 ```
 setup_var 0x4ED 0x00
-
 ```
 
 Default:	0x01
@@ -49,7 +48,6 @@ set DVMT Pre-Allocation to 64MB:
 
 ```
 setup_var 0x795 0x2
-
 ```
 
 Default:	0x02
