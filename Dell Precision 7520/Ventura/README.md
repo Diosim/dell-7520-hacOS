@@ -22,15 +22,22 @@ OpenCore | 0.8.8
 
 ## What works?
 
-- Battery readout
 - Boot
 - Ethernet
-- Keyboard + Trackpad
-- Power Management
 - WiFi
 - Bluetooth
+- Keyboard + Trackpad
+- Power Management
+- Battery readout
 - USB
 - Trackpoint
+
+## What doesn't work?
+
+- GPU acceleration
+- headphone jack
+- HDMI
+
 
 ## Untested
 
@@ -42,11 +49,36 @@ OpenCore | 0.8.8
 - Brightness Control
 - Speaker
 
-## What doesn't work?
+- Intel HD P630 iGPU eDP with Backlight Output
+- Intel HD P630 iGPU HDMI Output
+- Intel HD P630 iGPU Type-C to HDMI Output
+- Intel HD P630 iGPU - H264 & HEVC
 
-- GPU acceleration
-- headphone jack
-- HDMI
+- ALC256 Internal Speakers
+- ALC256 Internal microphone
+- ALC256 Combojack headphones
+- ALC256 Combojack microphone
+- ALC256 HDMI Audio Output
+- ALC256 TYPE-C to HDMI Audio Output
+
+- All USB-A 3.1 Ports (TYPE-C 3.1 Included)
+- SpeedStep / Sleep / Wake
+- HID Key PWRB & SLPB
+- I2C ALPS Touchpad with gesture
+- Keyboard (PS2-Internal) with backlight
+- Brightness Key
+- F11 Print Screen Key
+- F1 & F2 & F3 Sound Key
+- Wi-Fi and Bluetooth BCM94352Z (DELL DW1560) Module
+- Lan Intel I219-LM
+- SSD NVME Slot-1 PciE
+- Micro SD Cardreader
+- WebCam (USB-Internal)
+
+- All Sensors CPU, IGPU, BATTERY, NVME, FAN
+- ACPI Battery
+- NVRAM (Native)
+- Recovery (macOS) boot from OpenCore
 
 
 
