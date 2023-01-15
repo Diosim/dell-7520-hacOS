@@ -29,7 +29,9 @@ You'll also need to set some settings that are hidden from the menu. Boot the Op
 
 From there enter these commands:
 Disable CFG-Lock:
+```
 **setup_var 0x4ED 0x00** 
+```
 	Default:	0x01
 	
 Enable Above 4G Decoding:
@@ -39,8 +41,9 @@ Enable Above 4G Decoding:
 	Default:	0x00
 	
 set DVMT Pre-Allocation to 64MB:
-
+```
 **setup_var 0x795 0x2** 
+```
 	Default:	0x02
 	
 set DVMT Total GFX Size to MAX:
