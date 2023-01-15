@@ -60,19 +60,19 @@ OpenCore | 0.8.8
 - Virtualization Support: Enabled
 	- Virtualisation Support > Virtualization
 		- Default:  Enabled
-- SATA Operation: AHCI
+- SATA Operation: **AHCI**
 	- System Configuration > SATA Operation
 		- Default: AHCI
-- Thunderbolt: Disabled
+- Thunderbolt: **Disabled**
 	- System Configuration > Thunderbolt(TM) Adapter Configuration
 		- Default: Enabled (Enable Thunderbolt(TM) Technology Support)
-- Secure Boot: Disabled
+- Secure Boot: **Disabled**
 	- Secure Boot > Secure Boot Enable
 		- Default: Disabled
-- Legacy Option ROM: Disabled
+- Legacy Option ROM: **Disabled**
 	- General > Advanced Boot Options
 		- Default: Enabled
-- Wake on LAN/WLAN: Disabled
+- Wake on LAN/WLAN: **Disabled**
 		- Default: Disabled
 
 ## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
