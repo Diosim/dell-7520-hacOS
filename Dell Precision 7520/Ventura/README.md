@@ -78,7 +78,7 @@ OpenCore | 0.8.8
 ## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
 You'll also need to set some settings that are hidden from the menu.
 Boot the OpenCore EFI, press Space and select modGRUBShell.efi
-You'll also need to set some settings that are hidden from the menu. Boot the OpenCore EFI, press Space and select modGRUBShell.efi
+
 
 From there enter these commands:
 
