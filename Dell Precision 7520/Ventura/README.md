@@ -13,6 +13,7 @@ iGPU | Intel® HD Graphics P530
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
 macOS | Ventura 13.0
+OpenCore | 0.8.8
 
 ## What works?
 
