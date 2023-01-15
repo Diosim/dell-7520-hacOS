@@ -1,6 +1,6 @@
 # Dell-Precision-7520-OpenCore
  
-### Before you give this EFI a try, make sure you read [this](#BIOS/UEFI-Settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
+### Before you give this EFI a try, make sure you read [this](#BIOS-UEFI-Settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
 This repo includes an OpenCore EFI for the Dell Precision 7520.
 
@@ -51,7 +51,7 @@ OpenCore | 0.8.8
 
 
 
-# BIOS/UEFI settings
+# BIOS UEFI settings
 - System Configuration > Parallel Port
 	- Parallel Port: **Disabled**
 	- Default: AT
