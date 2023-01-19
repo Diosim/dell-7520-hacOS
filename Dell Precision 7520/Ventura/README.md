@@ -14,7 +14,7 @@ iGPU | Intel® HD Graphics P630
 RAM | 32 GB DDR4 2400MHz
 WiFi | Intel® 8265 Dual-Band 2x2 802.11ac Bluetooth® 4.2
 Ethernet | Intel® I219LM
-Chipset | Intel Mobile CM238
+Chipset | Intel Mobile CM238 Southbridge
 Audio | ALC295
 SSD | Samsung PM871
 macOS | Ventura 13.0
