@@ -1,8 +1,32 @@
-# BIOS changes required for hackintosh
+# BIOS UEFI settings
+- System Configuration > Parallel Port
+	- Parallel Port: **Disabled**
+	- Default: AT
+- System Configuration > Serial Port
+	- Serial Port: **Enabled**
+	- Default: **COM1**
+- Virtualisation Support > Virtualization
+	- Virtualization Support: **Enabled**
+	- Default:  Enabled
+- System Configuration > SATA Operation
+	- SATA Operation: **AHCI**
+	- Default: AHCI
+- System Configuration > Thunderbolt(TM) Adapter Configuration
+	- Thunderbolt: **Disabled**
+	- Default: Enabled (Enable Thunderbolt(TM) Technology Support)
+- Secure Boot > Secure Boot Enable
+	- Secure Boot: **Disabled**
+	- Default: Disabled
+- General > Advanced Boot Options
+	- Legacy Option ROM: **Disabled**
+	- Default: Enabled
+- Wake on LAN/WLAN
+	- Wake on LAN/WLAN: **Disabled**
+	- Default: Disabled
 
 
+## For the next part there are some settings that are hidden from the BIOS menu.
 ## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
-You'll also need to set some settings that are hidden from the menu.
 Boot the OpenCore EFI, press Space and select modGRUBShell.efi
 
 
