@@ -50,7 +50,13 @@ OpenCore | 0.8.8
 - HDMI
 
 
+#BIOS-UEFI-Settings
+The required changes were moved to their own file *BIOS changes.md*
 
+
+#Generating-your-own-serial-and-Editing-ROM
+Use GenSMBios script to create your own IDs
+For ROM you should use your ethernet MAC
 
 
 
