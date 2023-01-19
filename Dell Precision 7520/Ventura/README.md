@@ -52,29 +52,5 @@ OpenCore | 0.8.8
 
 
 
-# BIOS UEFI settings
-- System Configuration > Parallel Port
-	- Parallel Port: **Disabled**
-	- Default: AT
-- System Configuration > Serial Port
-	- Serial Port: **Enabled**
-	- Default: **COM1**
-- Virtualisation Support > Virtualization
-	- Virtualization Support: **Enabled**
-	- Default:  Enabled
-- System Configuration > SATA Operation
-	- SATA Operation: **AHCI**
-	- Default: AHCI
-- System Configuration > Thunderbolt(TM) Adapter Configuration
-	- Thunderbolt: **Disabled**
-	- Default: Enabled (Enable Thunderbolt(TM) Technology Support)
-- Secure Boot > Secure Boot Enable
-	- Secure Boot: **Disabled**
-	- Default: Disabled
-- General > Advanced Boot Options
-	- Legacy Option ROM: **Disabled**
-	- Default: Enabled
-- Wake on LAN/WLAN
-	- Wake on LAN/WLAN: **Disabled**
-	- Default: Disabled
+
 
