@@ -27,6 +27,7 @@
 
 ## For the next part there are some settings that are hidden from the BIOS menu.
 ## MAKE SURE YOU KNOW WHAT YOU ARE DOING BEFORE CHANGING THESE VALUES, AS IT MAY BREAK YOUR SYSTEM!
+## I can not be held responsible for any harm that is done to your system using those values!
 Boot the OpenCore EFI, press Space and select modGRUBShell.efi
 
 
@@ -54,7 +55,7 @@ setup_var 0x796 0x3
 
 
 
-# Extracted from BIOS version 1.14.1
+# The above values were extracted from BIOS version 1.14.1 for the Dell Precision 7520 (BIOS values dump is seen below
 
 Location | CFG Lock
 ------------- | ---------------
