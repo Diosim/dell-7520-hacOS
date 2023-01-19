@@ -55,7 +55,7 @@ setup_var 0x796 0x3
 
 
 
-# The above values were extracted from BIOS version 1.14.1 for the Dell Precision 7520 (BIOS values dump is seen below
+# The above values were extracted from BIOS version 1.14.1 for the Dell Precision 7520 (BIOS values dump is seen below)
 
 Location | CFG Lock
 ------------- | ---------------
