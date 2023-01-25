@@ -24,7 +24,7 @@ boot
 
 
 no boot
-1. black screen > reboot
+1. black screen
 	AAPL,ig-platform-id	00001B59
 	device-id		1B590000
 2. AppleKeyStore: operation failed, issues
@@ -36,7 +36,7 @@ no boot
 	framebuffer-fbmem	00009000 
 	framebuffer-stolenmem	00003001 
 	framebuffer-patch-enable	01000000 
-3.
+3. black screen
 	AAPL,ig-platform-id	00001B59
 	AAPL,slot-name	Internal@0,2,0
 	device-id		1B590000
