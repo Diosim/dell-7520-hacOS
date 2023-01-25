@@ -12,8 +12,10 @@ boot
 	framebuffer-fbmem	00009000 
 	framebuffer-stolenmem	00003001 
 	framebuffer-patch-enable	01000000 
-
-5.
+5. No WiFi
+	AAPL,ig-platform-id	00001659
+	device-id		591B8086
+6.
 	AAPL,ig-platform-id	00001659
 	device-id		591B8086
 	framebuffer-fbmem	00009000 
@@ -34,3 +36,9 @@ no boot
 	framebuffer-fbmem	00009000 
 	framebuffer-stolenmem	00003001 
 	framebuffer-patch-enable	01000000 
+3.
+	AAPL,ig-platform-id	00001B59
+	AAPL,slot-name	Internal@0,2,0
+	device-id		1B590000
+	device_type		VGA compatible controller
+	model			Intel HD Graphics P630
