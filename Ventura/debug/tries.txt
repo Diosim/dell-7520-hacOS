@@ -1,0 +1,6 @@
+boot
+AAPL,ig-platform-id	00001B59
+
+no boot, black screen > reboot
+AAPL,ig-platform-id	00001B59
+device-id	1B590000
