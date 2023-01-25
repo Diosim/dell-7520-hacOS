@@ -18,20 +18,21 @@ Chipset | Intel Mobile CM238 Southbridge
 Audio | ALC295
 SSD | Samsung PM871
 macOS | Ventura 13.0
-SmBios|	MacBookPro 13,3
+SmBios|	MacBookPro 14,3
 OpenCore | 0.8.8
 
 ## What works?
 
 - Boot
 - Ethernet
-- WiFi
-- Bluetooth
+- WiFi /w issues: long time to connect
+- Bluetooth: devices visible, untested
 - Keyboard + Trackpad
-- Power Management
-- Battery readout
-- USB
 - Trackpoint
+- F1 & F2 & F3 Sound Key
+- Battery readout
+- USB /w issues: 1 USB not working
+
 
 ## What doesn't work?
 
@@ -41,7 +42,7 @@ OpenCore | 0.8.8
 
 
 ## Untested
-
+- Power Management
 - Audio
 - Thunderbolt (untested)
 - Webcam
@@ -66,10 +67,9 @@ OpenCore | 0.8.8
 - SpeedStep / Sleep / Wake
 - HID Key PWRB & SLPB
 - I2C ALPS Touchpad with gesture
-- Keyboard (PS2-Internal) with backlight
 - Brightness Key
 - F11 Print Screen Key
-- F1 & F2 & F3 Sound Key
+
 - Wi-Fi and Bluetooth BCM94352Z (DELL DW1560) Module
 - Lan Intel I219-LM
 - SSD NVME Slot-1 PciE
