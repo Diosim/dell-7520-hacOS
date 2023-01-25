@@ -3,9 +3,19 @@ boot
 	Empty
 2.
 	AAPL,ig-platform-id	00001B59
+3.
+	AAPL,ig-platform-id	00001B59
+	device-id		591B8086
+4.
+	AAPL,ig-platform-id	00001B59
+	device-id		591B8086
+	framebuffer-fbmem	00009000 
+	framebuffer-stolenmem	00003001 
+	framebuffer-patch-enable	01000000 
+
 
 
 no boot
 1. black screen > reboot
 	AAPL,ig-platform-id	00001B59
-	device-id	1B590000
+	device-id		1B590000
