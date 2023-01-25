@@ -13,6 +13,12 @@ boot
 	framebuffer-stolenmem	00003001 
 	framebuffer-patch-enable	01000000 
 
+5.
+	AAPL,ig-platform-id	00001659
+	device-id		591B8086
+	framebuffer-fbmem	00009000 
+	framebuffer-stolenmem	00003001 
+	framebuffer-patch-enable	01000000 
 
 
 no boot
