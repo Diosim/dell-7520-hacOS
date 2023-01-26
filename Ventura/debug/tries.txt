@@ -27,6 +27,7 @@ no boot
 1. black screen
 	AAPL,ig-platform-id	00001B59
 	device-id		1B590000
+
 2. AppleKeyStore: operation failed, issues
 	AAPL,ig-platform-id	00001B59
 	AAPL,slot-name	Internal@0,2,0
@@ -42,3 +43,13 @@ no boot
 	device-id		1B590000
 	device_type		VGA compatible controller
 	model			Intel HD Graphics P630
+
+4. Black screen, blind login/ keyboard error sounds work
+	AAPL,ig-platform-id	00001659
+	device-id		16590000
+	AAPL,slot-name		GPU Controller
+	framebuffer-fbmem	00009000 
+	framebuffer-stolenmem	00003001 
+	framebuffer-patch-enable	01000000 
+	model			Intel HD Graphics P630 MacEdition
+
