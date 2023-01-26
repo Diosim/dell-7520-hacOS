@@ -17,9 +17,21 @@ Ethernet | Intel® I219LM
 Chipset | Intel Mobile CM238 Southbridge
 Audio | ALC295
 SSD | Samsung PM871
-macOS | Ventura 13.0
+macOS | Ventura 13.1
 SmBios|	MacBookPro 14,3
 OpenCore | 0.8.8
+
+Bios system information
+Processor Type | Intel® Xeon® CPU E3-1505M V6 @3.00GHz
+Processor ID  | 906e9
+Video Controller | Intel® HD Graphics P630
+Video BIOS version | GOP 1080v13
+Video memory | 64MB
+Panel type | 15,6' FHD 
+Native Resolution | 1920 by 1080
+
+Audio controller | ALC3254
+
 
 ## What works?
 
