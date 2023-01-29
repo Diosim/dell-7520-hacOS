@@ -25,7 +25,30 @@ boot
 	AAPL,ig-platform-id	00001659
 	device-id		591B8086
 	framebuffer-patch-enable	01000000 
+8. 
+	AAPL,ig-platform-id	00001B59
+	device-id		591B0000
+	+boot args:		-igfxsklaskbl
 
+9. Black screen, blind login/ keyboard error sounds work
+	AAPL,ig-platform-id	00001659
+	device-id		16590000
+	AAPL,slot-name		GPU Controller
+	framebuffer-fbmem	00009000 
+	framebuffer-stolenmem	00003001 
+	framebuffer-patch-enable	01000000 
+	model			Intel HD Graphics P630 MacEdition
+
+10. Black screen, blind login/ keyboard error sounds work
+   Sleep > no wake
+	AAPL,ig-platform-id	00001659
+	device-id		16590000
+	AAPL,slot-name		GPU Controller
+	framebuffer-fbmem	00009000 
+	framebuffer-stolenmem	00003001 
+	framebuffer-patch-enable	01000000 
+	model			Intel HD Graphics P630 MacEdition
+	+bootargs		-igfxsklaskbl
 
 
 no boot
@@ -49,12 +72,5 @@ no boot
 	device_type		VGA compatible controller
 	model			Intel HD Graphics P630
 
-4. Black screen, blind login/ keyboard error sounds work
-	AAPL,ig-platform-id	00001659
-	device-id		16590000
-	AAPL,slot-name		GPU Controller
-	framebuffer-fbmem	00009000 
-	framebuffer-stolenmem	00003001 
-	framebuffer-patch-enable	01000000 
-	model			Intel HD Graphics P630 MacEdition
+
 
